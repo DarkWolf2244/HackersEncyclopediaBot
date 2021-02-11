@@ -1,0 +1,200 @@
+{
+	"generalInfo": {
+		"Category": "Stealth Program",
+		"imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/3/3c/Dataleach.png/revision/latest/scale-to-width-down/512?cb=20160504092654",
+		"MinimumEvolverLevel": "2",
+		"DiskSpace": "3",
+		"CompilationTime": "30 Seconds",
+		"InstallTime": "1 Second",
+		"Type": "Versatile Program - Instant"
+	},
+    "1": {
+        "Visibility(persecond)": "28/second",
+        "DownloadBoost": "50%",
+        "CompilationPrice": "5",
+        "UpgradeCost": "512",
+        "ExperienceGained": "200",
+        "ResearchTime": "1Hour",
+        "RequiredEvolverLevel": "2"
+    },
+    "2": {
+        "Visibility(persecond)": "26/second",
+        "DownloadBoost": "55%",
+        "CompilationPrice": "10",
+        "UpgradeCost": "2,048",
+        "ExperienceGained": "300",
+        "ResearchTime": "4Hours",
+        "RequiredEvolverLevel": "2"
+    },
+    "3": {
+        "Visibility(persecond)": "24/second",
+        "DownloadBoost": "60%",
+        "CompilationPrice": "20",
+        "UpgradeCost": "4,096",
+        "ExperienceGained": "400",
+        "ResearchTime": "8Hours",
+        "RequiredEvolverLevel": "3"
+    },
+    "4": {
+        "Visibility(persecond)": "22/second",
+        "DownloadBoost": "65%",
+        "CompilationPrice": "30",
+        "UpgradeCost": "8,000",
+        "ExperienceGained": "450",
+        "ResearchTime": "12Hours",
+        "RequiredEvolverLevel": "4"
+    },
+    "5": {
+        "Visibility(persecond)": "20/second",
+        "DownloadBoost": "70%",
+        "CompilationPrice": "40",
+        "UpgradeCost": "16,000",
+        "ExperienceGained": "500",
+        "ResearchTime": "24Hours",
+        "RequiredEvolverLevel": "4"
+    },
+    "6": {
+        "Visibility(persecond)": "18/second",
+        "DownloadBoost": "75%",
+        "CompilationPrice": "50",
+        "UpgradeCost": "32,000",
+        "ExperienceGained": "575",
+        "ResearchTime": "30Hours",
+        "RequiredEvolverLevel": "5"
+    },
+    "7": {
+        "Visibility(persecond)": "16/second",
+        "DownloadBoost": "80%",
+        "CompilationPrice": "60",
+        "UpgradeCost": "48,000",
+        "ExperienceGained": "650",
+        "ResearchTime": "36Hours",
+        "RequiredEvolverLevel": "5"
+    },
+    "8": {
+        "Visibility(persecond)": "14/second",
+        "DownloadBoost": "85%",
+        "CompilationPrice": "70",
+        "UpgradeCost": "60,000",
+        "ExperienceGained": "725",
+        "ResearchTime": "42Hours",
+        "RequiredEvolverLevel": "6"
+    },
+    "9": {
+        "Visibility(persecond)": "13/second",
+        "DownloadBoost": "90%",
+        "CompilationPrice": "80",
+        "UpgradeCost": "80,000",
+        "ExperienceGained": "800",
+        "ResearchTime": "48Hours",
+        "RequiredEvolverLevel": "6"
+    },
+    "10": {
+        "Visibility(persecond)": "12/second",
+        "DownloadBoost": "95%",
+        "CompilationPrice": "90",
+        "UpgradeCost": "100,000",
+        "ExperienceGained": "825",
+        "ResearchTime": "54Hours",
+        "RequiredEvolverLevel": "7"
+    },
+    "11": {
+        "Visibility(persecond)": "11/second",
+        "DownloadBoost": "100%",
+        "CompilationPrice": "100",
+        "UpgradeCost": "120,000",
+        "ExperienceGained": "850",
+        "ResearchTime": "60Hours",
+        "RequiredEvolverLevel": "7"
+    },
+    "12": {
+        "Visibility(persecond)": "10/second",
+        "DownloadBoost": "105%",
+        "CompilationPrice": "110",
+        "UpgradeCost": "140,000",
+        "ExperienceGained": "875",
+        "ResearchTime": "66Hours",
+        "RequiredEvolverLevel": "8"
+    },
+    "13": {
+        "Visibility(persecond)": "9/second",
+        "DownloadBoost": "110%",
+        "CompilationPrice": "120",
+        "UpgradeCost": "160,000",
+        "ExperienceGained": "900",
+        "ResearchTime": "72Hours",
+        "RequiredEvolverLevel": "8"
+    },
+    "14": {
+        "Visibility(persecond)": "8/second",
+        "DownloadBoost": "115%",
+        "CompilationPrice": "130",
+        "UpgradeCost": "180,000",
+        "ExperienceGained": "930",
+        "ResearchTime": "80Hours",
+        "RequiredEvolverLevel": "9"
+    },
+    "15": {
+        "Visibility(persecond)": "7/second",
+        "DownloadBoost": "120%",
+        "CompilationPrice": "140",
+        "UpgradeCost": "200,000",
+        "ExperienceGained": "960",
+        "ResearchTime": "88Hours",
+        "RequiredEvolverLevel": "9"
+    },
+    "16": {
+        "Visibility(persecond)": "6/second",
+        "DownloadBoost": "125%",
+        "CompilationPrice": "150",
+        "UpgradeCost": "220,000",
+        "ExperienceGained": "1,000",
+        "ResearchTime": "96Hours",
+        "RequiredEvolverLevel": "10"
+    },
+    "17": {
+        "Visibility(persecond)": "5/second",
+        "DownloadBoost": "130%",
+        "CompilationPrice": "170",
+        "UpgradeCost": "260,000",
+        "ExperienceGained": "1,080",
+        "ResearchTime": "104Hours",
+        "RequiredEvolverLevel": "10"
+    },
+    "18": {
+        "Visibility(persecond)": "4/second",
+        "DownloadBoost": "135%",
+        "CompilationPrice": "190",
+        "UpgradeCost": "300,000",
+        "ExperienceGained": "1,160",
+        "ResearchTime": "112Hours",
+        "RequiredEvolverLevel": "11"
+    },
+    "19": {
+        "Visibility(persecond)": "3/second",
+        "DownloadBoost": "140%",
+        "CompilationPrice": "210",
+        "UpgradeCost": "340,000",
+        "ExperienceGained": "1,250",
+        "ResearchTime": "120Hours",
+        "RequiredEvolverLevel": "11"
+    },
+    "20": {
+        "Visibility(persecond)": "2/second",
+        "DownloadBoost": "145%",
+        "CompilationPrice": "230",
+        "UpgradeCost": "380,000",
+        "ExperienceGained": "1,375",
+        "ResearchTime": "132Hours",
+        "RequiredEvolverLevel": "12"
+    },
+    "21": {
+        "Visibility(persecond)": "1/second",
+        "DownloadBoost": "150%",
+        "CompilationPrice": "250",
+        "UpgradeCost": "420,000",
+        "ExperienceGained": "1,500",
+        "ResearchTime": "144Hours",
+        "RequiredEvolverLevel": "12"
+    }
+}

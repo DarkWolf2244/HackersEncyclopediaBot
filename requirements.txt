@@ -1,0 +1,11 @@
+certifi
+chardet
+freeze
+idna
+requests>
+six
+urllib3
+discord.py
+pynacl
+Pillow
+statcord.py
