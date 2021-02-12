@@ -1,0 +1,243 @@
+{
+	"generalInfo": {
+		"Category": "Artificial Intelligence",
+		"RequiredCoreLevel": "7",
+		"InstallTime": "3Seconds",
+		"ReviveTime": "1Hour",
+		"NodeConnections": "3",
+		"ProgramSlots": "4",
+		"Type": "Artificial Intelligence - Long-range Attacks - AI Hawk attacks once every 0.5 seconds",
+		"RegenerationRate": "1%"
+	},
+    "1": {
+        "NodeFirewall": "280",
+        "Strength(DPS)": "35",
+        "Damage(perhit)": "17.5",
+        "UpgradeCost": "$1,000,000",
+        "ExperienceGained": "500",
+        "CompletionTime": "24Hours",
+        "RequiredCoreLevel": "7",
+        "RevivalPrice": "500",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/a/a3/Hawk_01.png/revision/latest/scale-to-width-down/190?cb=20180519143434"
+    },
+    "2": {
+        "NodeFirewall": "310",
+        "Strength(DPS)": "40",
+        "Damage(perhit)": "20",
+        "UpgradeCost": "$1,500,000",
+        "ExperienceGained": "650",
+        "CompletionTime": "48Hours",
+        "RequiredCoreLevel": "7",
+        "RevivalPrice": "600",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/5/5b/Hawk_02-03.png/revision/latest/scale-to-width-down/190?cb=20180519143435"
+    },
+    "3": {
+        "NodeFirewall": "340",
+        "Strength(DPS)": "45",
+        "Damage(perhit)": "22.5",
+        "UpgradeCost": "$2,000,000",
+        "ExperienceGained": "800",
+        "CompletionTime": "72Hours",
+        "RequiredCoreLevel": "8",
+        "RevivalPrice": "650",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/5/5b/Hawk_02-03.png/revision/latest/scale-to-width-down/190?cb=20180519143435"
+    },
+    "4": {
+        "NodeFirewall": "380",
+        "Strength(DPS)": "52",
+        "Damage(perhit)": "26",
+        "UpgradeCost": "$2,500,000",
+        "ExperienceGained": "850",
+        "CompletionTime": "96Hours",
+        "RequiredCoreLevel": "8",
+        "RevivalPrice": "700",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/8/86/Hawk_04-05.png/revision/latest/scale-to-width-down/190?cb=20180519143435"
+    },
+    "5": {
+        "NodeFirewall": "420",
+        "Strength(DPS)": "60",
+        "Damage(perhit)": "30",
+        "UpgradeCost": "$3,000,000",
+        "ExperienceGained": "900",
+        "CompletionTime": "120Hours",
+        "RequiredCoreLevel": "9",
+        "RevivalPrice": "800",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/8/86/Hawk_04-05.png/revision/latest/scale-to-width-down/190?cb=20180519143435"
+    },
+    "6": {
+        "NodeFirewall": "470",
+        "Strength(DPS)": "67",
+        "Damage(perhit)": "33.5",
+        "UpgradeCost": "$3,500,000",
+        "ExperienceGained": "950",
+        "CompletionTime": "144Hours",
+        "RequiredCoreLevel": "9",
+        "RevivalPrice": "830",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/0/0f/Hawk_06-07.png/revision/latest/scale-to-width-down/190?cb=20180519143436"
+    },
+    "7": {
+        "NodeFirewall": "520",
+        "Strength(DPS)": "77",
+        "Damage(perhit)": "38.5",
+        "UpgradeCost": "$4,000,000",
+        "ExperienceGained": "1,000",
+        "CompletionTime": "168Hours",
+        "RequiredCoreLevel": "9",
+        "RevivalPrice": "860",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/0/0f/Hawk_06-07.png/revision/latest/scale-to-width-down/190?cb=20180519143436"
+    },
+    "8": {
+        "NodeFirewall": "580",
+        "Strength(DPS)": "88",
+        "Damage(perhit)": "44",
+        "UpgradeCost": "$5,000,000",
+        "ExperienceGained": "1,125",
+        "CompletionTime": "192Hours",
+        "RequiredCoreLevel": "10",
+        "RevivalPrice": "900",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/2/2f/Hawk_08-09.png/revision/latest/scale-to-width-down/190?cb=20180519143436"
+    },
+    "9": {
+        "NodeFirewall": "640",
+        "Strength(DPS)": "100",
+        "Damage(perhit)": "50",
+        "UpgradeCost": "$6,000,000",
+        "ExperienceGained": "1,250",
+        "CompletionTime": "216Hours",
+        "RequiredCoreLevel": "10",
+        "RevivalPrice": "930",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/2/2f/Hawk_08-09.png/revision/latest/scale-to-width-down/190?cb=20180519143436"
+    },
+    "10": {
+        "NodeFirewall": "710",
+        "Strength(DPS)": "114",
+        "Damage(perhit)": "57",
+        "UpgradeCost": "$7,000,000",
+        "ExperienceGained": "1,375",
+        "CompletionTime": "240Hours",
+        "RequiredCoreLevel": "10",
+        "RevivalPrice": "960",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/0/0c/Hawk_10-12.png/revision/latest/scale-to-width-down/190?cb=20180519143437"
+    },
+    "11": {
+        "NodeFirewall": "790",
+        "Strength(DPS)": "130",
+        "Damage(perhit)": "65",
+        "UpgradeCost": "$8,000,000",
+        "ExperienceGained": "1,500",
+        "CompletionTime": "264Hours",
+        "RequiredCoreLevel": "11",
+        "RevivalPrice": "1,000",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/0/0c/Hawk_10-12.png/revision/latest/scale-to-width-down/190?cb=20180519143437"
+    },
+    "12": {
+        "NodeFirewall": "875",
+        "Strength(DPS)": "148",
+        "Damage(perhit)": "74",
+        "UpgradeCost": "$9,000,000",
+        "ExperienceGained": "1,750",
+        "CompletionTime": "288Hours",
+        "RequiredCoreLevel": "11",
+        "RevivalPrice": "1,080",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/0/0c/Hawk_10-12.png/revision/latest/scale-to-width-down/190?cb=20180519143437"
+    },
+    "13": {
+        "NodeFirewall": "970",
+        "Strength(DPS)": "169",
+        "Damage(perhit)": "84.5",
+        "UpgradeCost": "$10,000,000",
+        "ExperienceGained": "2,000",
+        "CompletionTime": "312Hours",
+        "RequiredCoreLevel": "11",
+        "RevivalPrice": "1,160",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/1/17/Hawk_13-15.png/revision/latest/scale-to-width-down/190?cb=20180519143438"
+    },
+    "14": {
+        "NodeFirewall": "1,080",
+        "Strength(DPS)": "192",
+        "Damage(perhit)": "96",
+        "UpgradeCost": "$11,000,000",
+        "ExperienceGained": "2,500",
+        "CompletionTime": "336Hours",
+        "RequiredCoreLevel": "12",
+        "RevivalPrice": "1,250",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/1/17/Hawk_13-15.png/revision/latest/scale-to-width-down/190?cb=20180519143438"
+    },
+    "15": {
+        "NodeFirewall": "1,200",
+        "Strength(DPS)": "220",
+        "Damage(perhit)": "110",
+        "UpgradeCost": "$12,000,000",
+        "ExperienceGained": "3,000",
+        "CompletionTime": "336Hours",
+        "RequiredCoreLevel": "12",
+        "RevivalPrice": "1,330",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/1/17/Hawk_13-15.png/revision/latest/scale-to-width-down/190?cb=20180519143438"
+    },
+    "16": {
+        "NodeFirewall": "1,330",
+        "Strength(DPS)": "250",
+        "Damage(perhit)": "125",
+        "UpgradeCost": "$13,000,000",
+        "ExperienceGained": "3,500",
+        "CompletionTime": "336Hours",
+        "RequiredCoreLevel": "12",
+        "RevivalPrice": "1,410",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/f/f6/Hawk_16-18.png/revision/latest/scale-to-width-down/190?cb=20180519143439"
+    },
+    "17": {
+        "NodeFirewall": "1,475",
+        "Strength(DPS)": "285",
+        "Damage(perhit)": "142.5",
+        "UpgradeCost": "$14,000,000",
+        "ExperienceGained": "4,000",
+        "CompletionTime": "336Hours",
+        "RequiredCoreLevel": "12",
+        "RevivalPrice": "1,500",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/f/f6/Hawk_16-18.png/revision/latest/scale-to-width-down/190?cb=20180519143439"
+    },
+    "18": {
+        "NodeFirewall": "1,635",
+        "Strength(DPS)": "325",
+        "Damage(perhit)": "162.5",
+        "UpgradeCost": "$15,000,000",
+        "ExperienceGained": "4,500",
+        "CompletionTime": "336Hours",
+        "RequiredCoreLevel": "13",
+        "RevivalPrice": "1,625",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/f/f6/Hawk_16-18.png/revision/latest/scale-to-width-down/190?cb=20180519143439"
+    },
+    "19": {
+        "NodeFirewall": "1,815",
+        "Strength(DPS)": "370",
+        "Damage(perhit)": "185",
+        "UpgradeCost": "$16,000,000",
+        "ExperienceGained": "5,000",
+        "CompletionTime": "336Hours",
+        "RequiredCoreLevel": "13",
+        "RevivalPrice": "1,750",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/7/70/Hawk_19-21.png/revision/latest/scale-to-width-down/190?cb=20180519143439"
+    },
+    "20": {
+        "NodeFirewall": "2,015",
+        "Strength(DPS)": "422",
+        "Damage(perhit)": "211",
+        "UpgradeCost": "$16,000,000",
+        "ExperienceGained": "5,500",
+        "CompletionTime": "336Hours",
+        "RequiredCoreLevel": "13",
+        "RevivalPrice": "1,875",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/7/70/Hawk_19-21.png/revision/latest/scale-to-width-down/190?cb=20180519143439"
+    },
+    "21": {
+        "NodeFirewall": "2,230",
+        "Strength(DPS)": "482",
+        "Damage(perhit)": "241",
+        "UpgradeCost": "$16,000,000",
+        "ExperienceGained": "6,000",
+        "CompletionTime": "336Hours",
+        "RequiredCoreLevel": "13",
+        "RevivalPrice": "2,000",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/7/70/Hawk_19-21.png/revision/latest/scale-to-width-down/190?cb=20180519143439"
+    }
+}

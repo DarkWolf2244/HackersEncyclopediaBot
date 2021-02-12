@@ -1,0 +1,180 @@
+{
+	"generalInfo": {
+		"Category": "Offensive Program",
+		"imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/b/b6/Ion_cannon.png/revision/latest/scale-to-width-down/512?cb=20160504075612",
+		"MinimumEvolverLevel": "1",
+		"DiskSpace": "1",
+		"CompilationTime": "20 Seconds",
+		"InstallTime": "1 Seconds",
+		"Type": "Focused - Continuous",
+		"ProjectileTime": "0.1 Seconds"
+	},
+    "1": {
+        "Strength(DPS)": "15",
+        "CompilationPrice": "1",
+        "UpgradeCost": "0",
+        "ExperienceGained": "0",
+        "ResearchTime": "0Minutes",
+        "RequiredEvolverLevel": "1"
+    },
+    "2": {
+        "Strength(DPS)": "17",
+        "CompilationPrice": "2",
+        "UpgradeCost": "1,024",
+        "ExperienceGained": "250",
+        "ResearchTime": "2Hours",
+        "RequiredEvolverLevel": "1"
+    },
+    "3": {
+        "Strength(DPS)": "19",
+        "CompilationPrice": "4",
+        "UpgradeCost": "2,048",
+        "ExperienceGained": "300",
+        "ResearchTime": "4Hours",
+        "RequiredEvolverLevel": "2"
+    },
+    "4": {
+        "Strength(DPS)": "22",
+        "CompilationPrice": "6",
+        "UpgradeCost": "4,096",
+        "ExperienceGained": "375",
+        "ResearchTime": "6Hours",
+        "RequiredEvolverLevel": "3"
+    },
+    "5": {
+        "Strength(DPS)": "25",
+        "CompilationPrice": "8",
+        "UpgradeCost": "8,000",
+        "ExperienceGained": "400",
+        "ResearchTime": "8Hours",
+        "RequiredEvolverLevel": "4"
+    },
+    "6": {
+        "Strength(DPS)": "28",
+        "CompilationPrice": "10",
+        "UpgradeCost": "16,000",
+        "ExperienceGained": "425",
+        "ResearchTime": "10Hours",
+        "RequiredEvolverLevel": "4"
+    },
+    "7": {
+        "Strength(DPS)": "31",
+        "CompilationPrice": "12",
+        "UpgradeCost": "24,000",
+        "ExperienceGained": "450",
+        "ResearchTime": "12Hours",
+        "RequiredEvolverLevel": "5"
+    },
+    "8": {
+        "Strength(DPS)": "36",
+        "CompilationPrice": "14",
+        "UpgradeCost": "32,000",
+        "ExperienceGained": "475",
+        "ResearchTime": "18Hours",
+        "RequiredEvolverLevel": "5"
+    },
+    "9": {
+        "Strength(DPS)": "40",
+        "CompilationPrice": "16",
+        "UpgradeCost": "40,000",
+        "ExperienceGained": "500",
+        "ResearchTime": "24Hours",
+        "RequiredEvolverLevel": "6"
+    },
+    "10": {
+        "Strength(DPS)": "45",
+        "CompilationPrice": "18",
+        "UpgradeCost": "50,000",
+        "ExperienceGained": "575",
+        "ResearchTime": "30Hours",
+        "RequiredEvolverLevel": "6"
+    },
+    "11": {
+        "Strength(DPS)": "51",
+        "CompilationPrice": "20",
+        "UpgradeCost": "60,000",
+        "ExperienceGained": "650",
+        "ResearchTime": "36Hours",
+        "RequiredEvolverLevel": "7"
+    },
+    "12": {
+        "Strength(DPS)": "58",
+        "CompilationPrice": "22",
+        "UpgradeCost": "80,000",
+        "ExperienceGained": "725",
+        "ResearchTime": "42Hours",
+        "RequiredEvolverLevel": "7"
+    },
+    "13": {
+        "Strength(DPS)": "65",
+        "CompilationPrice": "24",
+        "UpgradeCost": "100,000",
+        "ExperienceGained": "800",
+        "ResearchTime": "48Hours",
+        "RequiredEvolverLevel": "8"
+    },
+    "14": {
+        "Strength(DPS)": "74",
+        "CompilationPrice": "26",
+        "UpgradeCost": "120,000",
+        "ExperienceGained": "825",
+        "ResearchTime": "54Hours",
+        "RequiredEvolverLevel": "8"
+    },
+    "15": {
+        "Strength(DPS)": "83",
+        "CompilationPrice": "28",
+        "UpgradeCost": "140,000",
+        "ExperienceGained": "850",
+        "ResearchTime": "60Hours",
+        "RequiredEvolverLevel": "9"
+    },
+    "16": {
+        "Strength(DPS)": "94",
+        "CompilationPrice": "30",
+        "UpgradeCost": "160,000",
+        "ExperienceGained": "875",
+        "ResearchTime": "66Hours",
+        "RequiredEvolverLevel": "9"
+    },
+    "17": {
+        "Strength(DPS)": "106",
+        "CompilationPrice": "34",
+        "UpgradeCost": "180,000",
+        "ExperienceGained": "900",
+        "ResearchTime": "72Hours",
+        "RequiredEvolverLevel": "10"
+    },
+    "18": {
+        "Strength(DPS)": "121",
+        "CompilationPrice": "38",
+        "UpgradeCost": "200,000",
+        "ExperienceGained": "930",
+        "ResearchTime": "80Hours",
+        "RequiredEvolverLevel": "10"
+    },
+    "19": {
+        "Strength(DPS)": "135",
+        "CompilationPrice": "42",
+        "UpgradeCost": "220,000",
+        "ExperienceGained": "960",
+        "ResearchTime": "88Hours",
+        "RequiredEvolverLevel": "11"
+    },
+    "20": {
+        "Strength(DPS)": "153",
+        "CompilationPrice": "46",
+        "UpgradeCost": "240,000",
+        "ExperienceGained": "1,000",
+        "ResearchTime": "96Hours",
+        "RequiredEvolverLevel": "11"
+    },
+    "21": {
+        "Strength(DPS)": "173",
+        "CompilationPrice": "50",
+        "UpgradeCost": "300,000",
+        "ExperienceGained": "1,125",
+        "ResearchTime": "108Hours",
+        "RequiredEvolverLevel": "12"
+    }
+}

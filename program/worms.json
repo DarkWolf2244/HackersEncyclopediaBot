@@ -1,0 +1,222 @@
+{
+	"generalInfo": {
+		"Category": "Offensive Program",
+		"imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/a/a6/Worms.png/revision/latest/scale-to-width-down/512?cb=20160504090743",
+		"MinimumEvolverLevel": "2",
+		"DiskSpace": "3",
+		"CompilationTime": "1 Minute",
+		"InstallTime": "1 Second",
+		"Type": "Dynamic - Delay 1.0 seconds - Duplicate - Delay",
+		"ProjectileTime": "0.5 Seconds"
+	},
+    "1": {
+        "Strength(DPS)": "12",
+        "Damage(perhit)": "6",
+        "DuplicationTime": "3.0seconds",
+        "CompilationPrice": "5",
+        "UpgradeCost": "256",
+        "ExperienceGained": "250",
+        "ResearchTime": "2Hours",
+        "RequiredEvolverLevel": "2"
+    },
+    "2": {
+        "Strength(DPS)": "14",
+        "Damage(perhit)": "7",
+        "DuplicationTime": "2.9seconds",
+        "CompilationPrice": "10",
+        "UpgradeCost": "2,048",
+        "ExperienceGained": "400",
+        "ResearchTime": "8Hours",
+        "RequiredEvolverLevel": "3"
+    },
+    "3": {
+        "Strength(DPS)": "16",
+        "Damage(perhit)": "8",
+        "DuplicationTime": "2.8seconds",
+        "CompilationPrice": "20",
+        "UpgradeCost": "4,096",
+        "ExperienceGained": "425",
+        "ResearchTime": "10Hours",
+        "RequiredEvolverLevel": "3"
+    },
+    "4": {
+        "Strength(DPS)": "18",
+        "Damage(perhit)": "9",
+        "DuplicationTime": "2.7seconds",
+        "CompilationPrice": "30",
+        "UpgradeCost": "8,000",
+        "ExperienceGained": "450",
+        "ResearchTime": "12Hours",
+        "RequiredEvolverLevel": "4"
+    },
+    "5": {
+        "Strength(DPS)": "20",
+        "Damage(perhit)": "10",
+        "DuplicationTime": "2.5seconds",
+        "CompilationPrice": "40",
+        "UpgradeCost": "16,000",
+        "ExperienceGained": "475",
+        "ResearchTime": "18Hours",
+        "RequiredEvolverLevel": "4"
+    },
+    "6": {
+        "Strength(DPS)": "23",
+        "Damage(perhit)": "11.5",
+        "DuplicationTime": "2.4seconds",
+        "CompilationPrice": "50",
+        "UpgradeCost": "32,000",
+        "ExperienceGained": "500",
+        "ResearchTime": "24Hours",
+        "RequiredEvolverLevel": "5"
+    },
+    "7": {
+        "Strength(DPS)": "26",
+        "Damage(perhit)": "13",
+        "DuplicationTime": "2.3seconds",
+        "CompilationPrice": "60",
+        "UpgradeCost": "48,000",
+        "ExperienceGained": "575",
+        "ResearchTime": "30Hours",
+        "RequiredEvolverLevel": "5"
+    },
+    "8": {
+        "Strength(DPS)": "30",
+        "Damage(perhit)": "15",
+        "DuplicationTime": "2.2seconds",
+        "CompilationPrice": "70",
+        "UpgradeCost": "60,000",
+        "ExperienceGained": "650",
+        "ResearchTime": "36Hours",
+        "RequiredEvolverLevel": "6"
+    },
+    "9": {
+        "Strength(DPS)": "34",
+        "Damage(perhit)": "17",
+        "DuplicationTime": "2.0seconds",
+        "CompilationPrice": "80",
+        "UpgradeCost": "80,000",
+        "ExperienceGained": "725",
+        "ResearchTime": "42Hours",
+        "RequiredEvolverLevel": "6"
+    },
+    "10": {
+        "Strength(DPS)": "39",
+        "Damage(perhit)": "19.5",
+        "DuplicationTime": "1.9seconds",
+        "CompilationPrice": "90",
+        "UpgradeCost": "100,000",
+        "ExperienceGained": "800",
+        "ResearchTime": "48Hours",
+        "RequiredEvolverLevel": "7"
+    },
+    "11": {
+        "Strength(DPS)": "44",
+        "Damage(perhit)": "22",
+        "DuplicationTime": "1.8seconds",
+        "CompilationPrice": "100",
+        "UpgradeCost": "120,000",
+        "ExperienceGained": "825",
+        "ResearchTime": "54Hours",
+        "RequiredEvolverLevel": "7"
+    },
+    "12": {
+        "Strength(DPS)": "51",
+        "Damage(perhit)": "25.5",
+        "DuplicationTime": "1.7seconds",
+        "CompilationPrice": "110",
+        "UpgradeCost": "140,000",
+        "ExperienceGained": "850",
+        "ResearchTime": "60Hours",
+        "RequiredEvolverLevel": "8"
+    },
+    "13": {
+        "Strength(DPS)": "58",
+        "Damage(perhit)": "29",
+        "DuplicationTime": "1.5seconds",
+        "CompilationPrice": "120",
+        "UpgradeCost": "160,000",
+        "ExperienceGained": "875",
+        "ResearchTime": "66Hours",
+        "RequiredEvolverLevel": "8"
+    },
+    "14": {
+        "Strength(DPS)": "66",
+        "Damage(perhit)": "33",
+        "DuplicationTime": "1.4seconds",
+        "CompilationPrice": "130",
+        "UpgradeCost": "180,000",
+        "ExperienceGained": "900",
+        "ResearchTime": "72Hours",
+        "RequiredEvolverLevel": "9"
+    },
+    "15": {
+        "Strength(DPS)": "75",
+        "Damage(perhit)": "37.5",
+        "DuplicationTime": "1.3seconds",
+        "CompilationPrice": "140",
+        "UpgradeCost": "200,000",
+        "ExperienceGained": "930",
+        "ResearchTime": "80Hours",
+        "RequiredEvolverLevel": "9"
+    },
+    "16": {
+        "Strength(DPS)": "86",
+        "Damage(perhit)": "43",
+        "DuplicationTime": "1.2seconds",
+        "CompilationPrice": "150",
+        "UpgradeCost": "220,000",
+        "ExperienceGained": "960",
+        "ResearchTime": "88Hours",
+        "RequiredEvolverLevel": "10"
+    },
+    "17": {
+        "Strength(DPS)": "98",
+        "Damage(perhit)": "49",
+        "DuplicationTime": "1.0seconds",
+        "CompilationPrice": "170",
+        "UpgradeCost": "260,000",
+        "ExperienceGained": "1,000",
+        "ResearchTime": "96Hours",
+        "RequiredEvolverLevel": "10"
+    },
+    "18": {
+        "Strength(DPS)": "111",
+        "Damage(perhit)": "55.5",
+        "DuplicationTime": "0.9seconds",
+        "CompilationPrice": "190",
+        "UpgradeCost": "300,000",
+        "ExperienceGained": "1,125",
+        "ResearchTime": "108Hours",
+        "RequiredEvolverLevel": "11"
+    },
+    "19": {
+        "Strength(DPS)": "127",
+        "Damage(perhit)": "63.5",
+        "DuplicationTime": "0.8seconds",
+        "CompilationPrice": "210",
+        "UpgradeCost": "340,000",
+        "ExperienceGained": "1,250",
+        "ResearchTime": "120Hours",
+        "RequiredEvolverLevel": "11"
+    },
+    "20": {
+        "Strength(DPS)": "145",
+        "Damage(perhit)": "72.5",
+        "DuplicationTime": "0.7seconds",
+        "CompilationPrice": "230",
+        "UpgradeCost": "380.000",
+        "ExperienceGained": "1,500",
+        "ResearchTime": "144Hours",
+        "RequiredEvolverLevel": "12"
+    },
+    "21": {
+        "Strength(DPS)": "165",
+        "Damage(perhit)": "82.5",
+        "DuplicationTime": "0.5seconds",
+        "CompilationPrice": "250",
+        "UpgradeCost": "420,000",
+        "ExperienceGained": "1,750",
+        "ResearchTime": "168Hours",
+        "RequiredEvolverLevel": "12"
+    }
+}

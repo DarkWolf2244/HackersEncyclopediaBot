@@ -1,0 +1,200 @@
+{
+	"generalInfo": {
+		"Category": "Security Node",
+		"RequiredCoreLevel": "2",
+		"AdditionalNodes": "3 - 5 - 9 - 11 - 13",
+		"NodeConnections": "4",
+		"ProgramSlots": "4",
+		"Type": "Focused - Delay: None - Turrets take 0.5 seconds to acquire a target",
+		"RegenerationRate": "1%"
+	},
+    "1": {
+        "NodeFirewall": "300",
+        "Strength(DPS)": "15",
+        "UpgradeCost": "$2,000",
+        "ExperienceGained": "125",
+        "CompletionTime": "15Minutes",
+        "RequiredCoreLevel": "1",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/0/00/Turret_01.png/revision/latest/scale-to-width-down/135?cb=20170401223507"
+    },
+    "2": {
+        "NodeFirewall": "335",
+        "Strength(DPS)": "17",
+        "UpgradeCost": "$8,000",
+        "ExperienceGained": "150",
+        "CompletionTime": "30Minutes",
+        "RequiredCoreLevel": "2",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/d/da/Turret_02-03.png/revision/latest/scale-to-width-down/135?cb=20170401223507"
+    },
+    "3": {
+        "NodeFirewall": "370",
+        "Strength(DPS)": "19",
+        "UpgradeCost": "$65,000",
+        "ExperienceGained": "200",
+        "CompletionTime": "1Hour",
+        "RequiredCoreLevel": "3",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/d/da/Turret_02-03.png/revision/latest/scale-to-width-down/135?cb=20170401223507"
+    },
+    "4": {
+        "NodeFirewall": "410",
+        "Strength(DPS)": "21",
+        "UpgradeCost": "$125,000",
+        "ExperienceGained": "300",
+        "CompletionTime": "4Hours",
+        "RequiredCoreLevel": "4",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/6/68/Turret_04-05.png/revision/latest/scale-to-width-down/135?cb=20170401223506"
+    },
+    "5": {
+        "NodeFirewall": "455",
+        "Strength(DPS)": "24",
+        "UpgradeCost": "$250,000",
+        "ExperienceGained": "375",
+        "CompletionTime": "6Hours",
+        "RequiredCoreLevel": "5",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/6/68/Turret_04-05.png/revision/latest/scale-to-width-down/135?cb=20170401223506"
+    },
+    "6": {
+        "NodeFirewall": "505",
+        "Strength(DPS)": "27",
+        "UpgradeCost": "$500,000",
+        "ExperienceGained": "450",
+        "CompletionTime": "12Hours",
+        "RequiredCoreLevel": "6",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/f/ff/Turret_06-07.png/revision/latest/scale-to-width-down/135?cb=20170401223506"
+    },
+    "7": {
+        "NodeFirewall": "560",
+        "Strength(DPS)": "30",
+        "UpgradeCost": "$750,000",
+        "ExperienceGained": "500",
+        "CompletionTime": "24Hours",
+        "RequiredCoreLevel": "7",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/f/ff/Turret_06-07.png/revision/latest/scale-to-width-down/135?cb=20170401223506"
+    },
+    "8": {
+        "NodeFirewall": "620",
+        "Strength(DPS)": "33",
+        "UpgradeCost": "$1,000,000",
+        "ExperienceGained": "650",
+        "CompletionTime": "36Hours",
+        "RequiredCoreLevel": "7",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/2/29/Turret_08-09.png/revision/latest/scale-to-width-down/135?cb=20170401223505"
+    },
+    "9": {
+        "NodeFirewall": "690",
+        "Strength(DPS)": "37",
+        "UpgradeCost": "$1,500,000",
+        "ExperienceGained": "800",
+        "CompletionTime": "48Hours",
+        "RequiredCoreLevel": "7",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/2/29/Turret_08-09.png/revision/latest/scale-to-width-down/135?cb=20170401223505"
+    },
+    "10": {
+        "NodeFirewall": "770",
+        "Strength(DPS)": "42",
+        "UpgradeCost": "$2,000,000",
+        "ExperienceGained": "850",
+        "CompletionTime": "60Hours",
+        "RequiredCoreLevel": "7",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/1/10/Turret_10-12.png/revision/latest/scale-to-width-down/135?cb=20170401223442"
+    },
+    "11": {
+        "NodeFirewall": "850",
+        "Strength(DPS)": "47",
+        "UpgradeCost": "$2,500,000",
+        "ExperienceGained": "900",
+        "CompletionTime": "72Hours",
+        "RequiredCoreLevel": "8",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/1/10/Turret_10-12.png/revision/latest/scale-to-width-down/135?cb=20170401223442"
+    },
+    "12": {
+        "NodeFirewall": "950",
+        "Strength(DPS)": "52",
+        "UpgradeCost": "$3,000,000",
+        "ExperienceGained": "950",
+        "CompletionTime": "92Hours",
+        "RequiredCoreLevel": "8",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/1/10/Turret_10-12.png/revision/latest/scale-to-width-down/135?cb=20170401223442"
+    },
+    "13": {
+        "NodeFirewall": "1,050",
+        "Strength(DPS)": "59",
+        "UpgradeCost": "$3,500,000",
+        "ExperienceGained": "1,000",
+        "CompletionTime": "96Hours",
+        "RequiredCoreLevel": "9",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/0/04/Turret_13-15.png/revision/latest/scale-to-width-down/135?cb=20170401223442"
+    },
+    "14": {
+        "NodeFirewall": "1,165",
+        "Strength(DPS)": "66",
+        "UpgradeCost": "$4,000,000",
+        "ExperienceGained": "1,125",
+        "CompletionTime": "108Hours",
+        "RequiredCoreLevel": "9",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/0/04/Turret_13-15.png/revision/latest/scale-to-width-down/135?cb=20170401223442"
+    },
+    "15": {
+        "NodeFirewall": "1,300",
+        "Strength(DPS)": "73",
+        "UpgradeCost": "$4,500,000",
+        "ExperienceGained": "1,250",
+        "CompletionTime": "120Hours",
+        "RequiredCoreLevel": "9",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/0/04/Turret_13-15.png/revision/latest/scale-to-width-down/135?cb=20170401223442"
+    },
+    "16": {
+        "NodeFirewall": "1,435",
+        "Strength(DPS)": "82",
+        "UpgradeCost": "$5,000,000",
+        "ExperienceGained": "1,375",
+        "CompletionTime": "132Hours",
+        "RequiredCoreLevel": "10",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/7/74/Turret_16-18.png/revision/latest/scale-to-width-down/135?cb=20170401223441"
+    },
+    "17": {
+        "NodeFirewall": "1,595",
+        "Strength(DPS)": "92",
+        "UpgradeCost": "$6,000,000",
+        "ExperienceGained": "1,500",
+        "CompletionTime": "144Hours",
+        "RequiredCoreLevel": "10",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/7/74/Turret_16-18.png/revision/latest/scale-to-width-down/135?cb=20170401223441"
+    },
+    "18": {
+        "NodeFirewall": "1,770",
+        "Strength(DPS)": "103",
+        "UpgradeCost": "$7,000,000",
+        "ExperienceGained": "1,625",
+        "CompletionTime": "156Hours",
+        "RequiredCoreLevel": "11",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/7/74/Turret_16-18.png/revision/latest/scale-to-width-down/135?cb=20170401223441"
+    },
+    "19": {
+        "NodeFirewall": "1,960",
+        "Strength(DPS)": "115",
+        "UpgradeCost": "$8,000,000",
+        "ExperienceGained": "1,750",
+        "CompletionTime": "168Hours",
+        "RequiredCoreLevel": "11",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/6/6a/Turret_19-21.png/revision/latest/scale-to-width-down/135?cb=20170401223441"
+    },
+    "20": {
+        "NodeFirewall": "2,180",
+        "Strength(DPS)": "130",
+        "UpgradeCost": "$10,000,000",
+        "ExperienceGained": "1,875",
+        "CompletionTime": "180Hours",
+        "RequiredCoreLevel": "12",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/6/6a/Turret_19-21.png/revision/latest/scale-to-width-down/135?cb=20170401223441"
+    },
+    "21": {
+        "NodeFirewall": "2,420",
+        "Strength(DPS)": "145",
+        "UpgradeCost": "$12,000,000",
+        "ExperienceGained": "2,000",
+        "CompletionTime": "192Hours",
+        "RequiredCoreLevel": "12",
+        "imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/6/6a/Turret_19-21.png/revision/latest/scale-to-width-down/135?cb=20170401223441"
+    }
+}

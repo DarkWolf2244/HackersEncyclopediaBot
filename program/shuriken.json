@@ -1,0 +1,201 @@
+{
+	"generalInfo": {
+		"Category": "Offensive Program",
+		"imageAddress": "https://static.wikia.nocookie.net/hackersthegame/images/a/ac/Shuriken.png/revision/latest/scale-to-width-down/512?cb=20160504075916",
+		"MinimumEvolverLevel": "1",
+		"DiskSpace": "1",
+		"CompilationTime": "30 Seconds",
+		"InstallTime": "1 Second",
+		"Type": "Sweeper - Delay 1.5 seconds - Delay",
+		"ProjectileTime": "1 Second"
+	},
+    "1": {
+        "Strength(DPS)": "11",
+        "Damage(perhit)": "11",
+        "CompilationPrice": "2",
+        "UpgradeCost": "128",
+        "ExperienceGained": "125",
+        "ResearchTime": "15Minutes",
+        "RequiredEvolverLevel": "1"
+    },
+    "2": {
+        "Strength(DPS)": "13",
+        "Damage(perhit)": "13",
+        "CompilationPrice": "4",
+        "UpgradeCost": "1,024",
+        "ExperienceGained": "300",
+        "ResearchTime": "4Hours",
+        "RequiredEvolverLevel": "2"
+    },
+    "3": {
+        "Strength(DPS)": "15",
+        "Damage(perhit)": "15",
+        "CompilationPrice": "8",
+        "UpgradeCost": "2,048",
+        "ExperienceGained": "375",
+        "ResearchTime": "6Hours",
+        "RequiredEvolverLevel": "3"
+    },
+    "4": {
+        "Strength(DPS)": "17",
+        "Damage(perhit)": "17",
+        "CompilationPrice": "12",
+        "UpgradeCost": "4,096",
+        "ExperienceGained": "400",
+        "ResearchTime": "8Hours",
+        "RequiredEvolverLevel": "4"
+    },
+    "5": {
+        "Strength(DPS)": "19",
+        "Damage(perhit)": "19",
+        "CompilationPrice": "16",
+        "UpgradeCost": "8,000",
+        "ExperienceGained": "425",
+        "ResearchTime": "10Hours",
+        "RequiredEvolverLevel": "4"
+    },
+    "6": {
+        "Strength(DPS)": "22",
+        "Damage(perhit)": "22",
+        "CompilationPrice": "20",
+        "UpgradeCost": "16,000",
+        "ExperienceGained": "450",
+        "ResearchTime": "12Hours",
+        "RequiredEvolverLevel": "5"
+    },
+    "7": {
+        "Strength(DPS)": "25",
+        "Damage(perhit)": "25",
+        "CompilationPrice": "24",
+        "UpgradeCost": "32,000",
+        "ExperienceGained": "475",
+        "ResearchTime": "18Hours",
+        "RequiredEvolverLevel": "5"
+    },
+    "8": {
+        "Strength(DPS)": "28",
+        "Damage(perhit)": "28",
+        "CompilationPrice": "28",
+        "UpgradeCost": "60,000",
+        "ExperienceGained": "500",
+        "ResearchTime": "24Hours",
+        "RequiredEvolverLevel": "6"
+    },
+    "9": {
+        "Strength(DPS)": "32",
+        "Damage(perhit)": "32",
+        "CompilationPrice": "32",
+        "UpgradeCost": "70,000",
+        "ExperienceGained": "575",
+        "ResearchTime": "30Hours",
+        "RequiredEvolverLevel": "6"
+    },
+    "10": {
+        "Strength(DPS)": "37",
+        "Damage(perhit)": "37",
+        "CompilationPrice": "36",
+        "UpgradeCost": "80,000",
+        "ExperienceGained": "650",
+        "ResearchTime": "36Hours",
+        "RequiredEvolverLevel": "7"
+    },
+    "11": {
+        "Strength(DPS)": "42",
+        "Damage(perhit)": "42",
+        "CompilationPrice": "40",
+        "UpgradeCost": "90,000",
+        "ExperienceGained": "725",
+        "ResearchTime": "42Hours",
+        "RequiredEvolverLevel": "7"
+    },
+    "12": {
+        "Strength(DPS)": "48",
+        "Damage(perhit)": "48",
+        "CompilationPrice": "44",
+        "UpgradeCost": "100,000",
+        "ExperienceGained": "800",
+        "ResearchTime": "48Hours",
+        "RequiredEvolverLevel": "8"
+    },
+    "13": {
+        "Strength(DPS)": "55",
+        "Damage(perhit)": "55",
+        "CompilationPrice": "48",
+        "UpgradeCost": "120,000",
+        "ExperienceGained": "825",
+        "ResearchTime": "54Hours",
+        "RequiredEvolverLevel": "8"
+    },
+    "14": {
+        "Strength(DPS)": "63",
+        "Damage(perhit)": "63",
+        "CompilationPrice": "52",
+        "UpgradeCost": "140,000",
+        "ExperienceGained": "850",
+        "ResearchTime": "60Hours",
+        "RequiredEvolverLevel": "9"
+    },
+    "15": {
+        "Strength(DPS)": "71",
+        "Damage(perhit)": "71",
+        "CompilationPrice": "56",
+        "UpgradeCost": "160,000",
+        "ExperienceGained": "875",
+        "ResearchTime": "66Hours",
+        "RequiredEvolverLevel": "9"
+    },
+    "16": {
+        "Strength(DPS)": "81",
+        "Damage(perhit)": "81",
+        "CompilationPrice": "60",
+        "UpgradeCost": "180,000",
+        "ExperienceGained": "900",
+        "ResearchTime": "72Hours",
+        "RequiredEvolverLevel": "10"
+    },
+    "17": {
+        "Strength(DPS)": "93",
+        "Damage(perhit)": "93",
+        "CompilationPrice": "68",
+        "UpgradeCost": "200,000",
+        "ExperienceGained": "930",
+        "ResearchTime": "80Hours",
+        "RequiredEvolverLevel": "10"
+    },
+    "18": {
+        "Strength(DPS)": "106",
+        "Damage(perhit)": "106",
+        "CompilationPrice": "76",
+        "UpgradeCost": "220,000",
+        "ExperienceGained": "960",
+        "ResearchTime": "88Hours",
+        "RequiredEvolverLevel": "11"
+    },
+    "19": {
+        "Strength(DPS)": "121",
+        "Damage(perhit)": "121",
+        "CompilationPrice": "84",
+        "UpgradeCost": "240,000",
+        "ExperienceGained": "1,000",
+        "ResearchTime": "96Hours",
+        "RequiredEvolverLevel": "11"
+    },
+    "20": {
+        "Strength(DPS)": "137",
+        "Damage(perhit)": "137",
+        "CompilationPrice": "92",
+        "UpgradeCost": "300,000",
+        "ExperienceGained": "1,125",
+        "ResearchTime": "108Hours",
+        "RequiredEvolverLevel": "12"
+    },
+    "21": {
+        "Strength(DPS)": "157",
+        "Damage(perhit)": "157",
+        "CompilationPrice": "100",
+        "UpgradeCost": "360,000",
+        "ExperienceGained": "1,250",
+        "ResearchTime": "120Hours",
+        "RequiredEvolverLevel": "12"
+    }
+}
