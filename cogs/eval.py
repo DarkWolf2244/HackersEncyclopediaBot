@@ -3,32 +3,28 @@ import io
 import textwrap
 import traceback
 from contextlib import redirect_stdout
+from utils.util import bot_staff
 
 from discord.ext import commands
 
-def is_owner():
-    async def predicate(ctx):
-        return ctx.author.id in [382534096427024385, 525334420467744768, 436646726204653589, 218142353674731520, 218590885703581699, 212700961674756096, 355286125616562177, 270932660950401024, 393250142993645568, 210939566733918208, 419742289188093952]
-    return commands.check(predicate)
 
 class Eval(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
+    @commands.check(bot_staff)
     @commands.command(name='eval', hidden = True)
-    @is_owner()
     async def _eval(self, ctx, *, body):
         """Evaluates python code"""
-        if ctx.author.id in (647419416178589706, 382534096427024385, 525334420467744768, 436646726204653589, 218142353674731520, 218590885703581699, 212700961674756096, 355286125616562177, 270932660950401024, 393250142993645568, 210939566733918208, 419742289188093952):
-            env = {
-                'ctx': ctx,
-                'bot': self.bot,
-                'channel': ctx.channel,
-                'author': ctx.author,
-                'guild': ctx.guild,
-                'message': ctx.message,
-                'source': inspect.getsource
-            }
+        env = {
+            'ctx': ctx,
+            'bot': self.bot,
+            'channel': ctx.channel,
+            'author': ctx.author,
+            'guild': ctx.guild,
+            'message': ctx.message,
+            'source': inspect.getsource
+        }
 
         def cleanup_code(content):
             """Automatically removes code blocks from the code."""
