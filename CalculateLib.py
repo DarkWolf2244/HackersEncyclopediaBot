@@ -8,6 +8,7 @@ def bruteCal(takenNode, program, node):
     tempDamage = 0
     preGuardianBuffer = 0
     fallenNode = 0
+    deadProg = 0
     while True:
         for k in node:
             if node[k]['firewall'] <= 0:
@@ -20,6 +21,7 @@ def bruteCal(takenNode, program, node):
         if fallenNode == len(node):
             return [time, "TakenNode//Success",takenNode['firewall']]
         fallenNode = 0
+        deadProg = 0
         if time >= 180:
             time = 180
             return [time, "Time//Impossible",takenNode['firewall']]
@@ -35,7 +37,7 @@ def bruteCal(takenNode, program, node):
                         if program[j]['mode'] == 'multi':
                             tempDamage = program[j]['damage']
                         for l in node[k]['guardians']:
-                            if node[k]['guardians'][l][1] == time:
+                            if node[k]['guardians'][l][1] == time and node[k]['guardians'][l][0] <= 0:
                                 node[k]['guardians'][l][0] = node[k]['guardians'][l][2] #reset guardian shield
                             if node[k]['guardians'][l][0] > 0:
                                 node[k]['guardians'][l][1] = time + 7 #reset guardian shield delay
@@ -49,7 +51,7 @@ def bruteCal(takenNode, program, node):
                         node[k]['firewall'] -= tempDamage
                     if program[j]['stun'] != 0:
                         node[k]['stunCounter'] = time + program[j]['stun']
-                    if node[k]['stunCounter'] <= time:
+                    if node[k]['stunCounter'] <= time and node[k]['firewall'] >= 0:
                         node[k]['firewall'] += node[k]['firewall'] / 1000 * node[k]['regen']
                         if node[k]['firewall'] >= node[k]['fixedFirewall']:
                            node[k]['firewall'] = node[k]['fixedFirewall']
@@ -61,20 +63,21 @@ def bruteCal(takenNode, program, node):
         for k in node:
             if node[k]['nodeCounter'] == max(node[k]['interval'], 0.1):
                 for n in takenNode['defProg']:
+                    if takenNode['defProg'][n][0] <= 0:
+                        deadProg += 1
+                        continue
                     takenNode['defProg'][n][0] += takenNode['defProg'][n][0] / 1000 * takenNode['defProg'][n][1]
                     takenNode['defProg'][n][0] -= node[k]['DPS']
                     if node[k]['sentryCounter'] == 1:
                         takenNode['defProg'][n][0] -= node[k]['sentryDPS']
                         node[k]['sentryCounter'] = 0
                     node[k]['nodeCounter'] = 0
-                    if takenNode['defProg'][n][0] <= 0:
-                        takenNode['defProg'].pop(n)
-                if len(takenNode['defProg']) == 0:
+                if deadProg == len(takenNode['defProg']):
                     takenNode['firewall'] -= node[k]['DPS']
                     if node[k]['sentryCounter'] == 1:
                         takenNode['firewall'] -= node[k]['sentryDPS']
                         node[k]['sentryCounter'] = 0
-                node[k]['nodeCounter'] = 0
+                    node[k]['nodeCounter'] = 0
             node[k]['sentryCounter'] = round(node[k]['sentryCounter']+0.1,1)
             node[k]['nodeCounter'] = round(node[k]['nodeCounter']+0.1,1)
         time += 0.1
