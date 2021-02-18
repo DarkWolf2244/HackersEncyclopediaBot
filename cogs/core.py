@@ -136,10 +136,10 @@ class Core(commands.Cog):
         nx.draw(g, with_labels = True)
         os.remove("image.png")
         plt.savefig("image.png")
-        file = open(f"{os.getcwd()}\image.png",'rb')
+        file = open(rf"{os.getcwd()}{os.path.sep}image.png",'rb')
         await ctx.send(file =discord.File(fp=file))
         file.close()
-        os.remove(f"{os.getcwd()}\image.png")
+        os.remove(f"{os.getcwd()}{os.path.sep}image.png")
 
 def setup(bot):
     bot.add_cog(Core(bot))
