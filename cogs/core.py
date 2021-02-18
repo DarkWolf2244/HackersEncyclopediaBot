@@ -71,8 +71,11 @@ class Core(commands.Cog):
                 embed.add_field(name = f"Stats of {name} at level {level}:",value = a)
                 embed.set_footer(text=f"Requested by {ctx.author}", icon_url=ctx.author.avatar_url)
                 return await ctx.send(embed=embed)
-
-
+            
+    @commands.command()
+    async def rickroll(self, ctx:commands.Context):
+        await ctx.send("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+        
     @commands.command()
     async def netBuild(self, ctx:commands.Context):
         g = nx.Graph() # Initialise a graph
