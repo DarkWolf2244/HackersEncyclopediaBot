@@ -134,6 +134,7 @@ class Core(commands.Cog):
                 g.add_edge(node, connectedNode)
 
         nx.draw(g, with_labels = True)
+        os.remove("image.png")
         plt.savefig("image.png")
         file = open(f"{os.getcwd()}\image.png",'rb')
         await ctx.send(file =discord.File(fp=file))
