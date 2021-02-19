@@ -78,7 +78,7 @@ class Core(commands.Cog):
         g = nx.Graph() # Initialise a graph
         nodeList = {} # Initialise the node list - it contains info on node connections
         while True: # Until the user says "stop"
-            await ctx.send('Input')
+            await ctx.send('Input a new connection (node-node2 or end)')
             nodeString = await self.bot.wait_for('message',check=lambda m: m.author == ctx.author and m.channel == ctx.channel) # Ask user for input (Ex: "netConnection-Core")
             # Break out of the loop if the user is finished with connecting
             if nodeString.content.lower() == "end":
@@ -136,10 +136,10 @@ class Core(commands.Cog):
         nx.draw(g, with_labels = True)
         os.remove("image.png")
         plt.savefig("image.png")
-        file = open(f"{os.getcwd()}\image.png",'rb')
+        file = open(rf"{os.getcwd()}{os.path.sep}image.png",'rb')
         await ctx.send(file =discord.File(fp=file))
         file.close()
-        os.remove(f"{os.getcwd()}\image.png")
+        os.remove(f"{os.getcwd()}{os.path.sep}image.png")
 
 def setup(bot):
     bot.add_cog(Core(bot))
