@@ -7,7 +7,8 @@
 		"CompilationTime": "20 Seconds",
 		"InstallTime": "1 Seconds",
 		"Type": "Focused - Continuous",
-		"ProjectileTime": "0.1 Seconds"
+		"ProjectileTime": "0.1 Seconds",
+		"Delay": "0 Seconds"
 	},
     "1": {
         "Strength(DPS)": "15",

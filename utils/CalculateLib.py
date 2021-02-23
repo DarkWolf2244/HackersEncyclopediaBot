@@ -10,16 +10,6 @@ def bruteCal(takenNode, program, node):
     fallenNode = 0
     deadProg = 0
     while True:
-        for k in node:
-            if node[k]['firewall'] <= 0:
-                node[k]['firewall'] = 0
-                fallenNode += 1
-        if time >= 180:
-            return [time, 'Time//Impossible']
-        if takenNode['firewall'] <= 0:
-            return [time, "TakenNode//Retaken",takenNode['firewall']]
-        if fallenNode == len(node):
-            return [time, "TakenNode//Success",takenNode['firewall']]
         fallenNode = 0
         deadProg = 0
         if time >= 180:
@@ -27,35 +17,38 @@ def bruteCal(takenNode, program, node):
             return [time, "Time//Impossible",takenNode['firewall']]
         for j in program:
             tempDamage = program[j]['damage']
-            if time >= program[j]['installTime']:
+            program[j]['localCounter'] = round(program[j]['interval'] - 0.1,2)
+            if time >= program[j]['installTime'] + program[j]['projectileTime']:
                 program[j]['localCounter'] += 0.1
                 program[j]['localCounter'] = round(program[j]['localCounter'], 2)
-            if program[j]['localCounter'] >= max(program[j]['interval'], 0.1):
-                tempDamage = program[j]['damage']
-                for k in node:
-                    if node[k]['firewall'] > 0:
-                        if program[j]['mode'] == 'multi':
-                            tempDamage = program[j]['damage']
-                        for l in node[k]['guardians']:
-                            if node[k]['guardians'][l][1] == time and node[k]['guardians'][l][0] <= 0:
-                                node[k]['guardians'][l][0] = node[k]['guardians'][l][2] #reset guardian shield
-                            if node[k]['guardians'][l][0] > 0:
-                                node[k]['guardians'][l][1] = time + 7 #reset guardian shield delay
-                            if tempDamage <= 0:
-                                continue
-                            if node[k]['guardians'][l][0] <= 0:
-                                continue
-                            preGuardianBuffer = node[k]['guardians'][l][0]
-                            node[k]['guardians'][l][0] = max(node[k]['guardians'][l][0] - tempDamage,0)
-                            tempDamage = max(tempDamage - preGuardianBuffer, 0)
-                        node[k]['firewall'] -= tempDamage
-                    if program[j]['stun'] != 0:
-                        node[k]['stunCounter'] = time + program[j]['stun']
-                    if node[k]['stunCounter'] <= time and node[k]['firewall'] >= 0:
-                        node[k]['firewall'] += node[k]['firewall'] / 1000 * node[k]['regen']
-                        if node[k]['firewall'] >= node[k]['fixedFirewall']:
-                           node[k]['firewall'] = node[k]['fixedFirewall']
-                program[j]['localCounter'] = 0
+                if program[j]['localCounter'] >= max(program[j]['interval'], 0.1):
+                    tempDamage = program[j]['damage']
+                    for k in node:
+                        if node[k]['firewall'] > 0:
+                            if program[j]['mode'] == 'multi':
+                                tempDamage = program[j]['damage']
+                            for l in node[k]['guardians']:
+                                if node[k]['guardians'][l][1] == time and node[k]['guardians'][l][0] <= 0:
+                                    node[k]['guardians'][l][0] = node[k]['guardians'][l][2] #reset guardian shield
+                                if node[k]['guardians'][l][0] > 0:
+                                    node[k]['guardians'][l][1] = time + 7 #reset guardian shield delay
+                                if tempDamage <= 0:
+                                    continue
+                                if node[k]['guardians'][l][0] <= 0:
+                                    continue
+                                preGuardianBuffer = node[k]['guardians'][l][0]
+                                node[k]['guardians'][l][0] = max(node[k]['guardians'][l][0] - tempDamage,0)
+                                tempDamage = max(tempDamage - preGuardianBuffer, 0)
+                            node[k]['firewall'] -= tempDamage
+                        if program[j]['stun'] != 0:
+                            node[k]['stunCounter'] = time + program[j]['stun']
+                        if node[k]['stunCounter'] <= time and node[k]['firewall'] >= 0:
+                            node[k]['firewall'] += node[k]['firewall'] / 1000 * node[k]['regen']
+                            if node[k]['firewall'] >= node[k]['fixedFirewall']:
+                               node[k]['firewall'] = node[k]['fixedFirewall']
+                    program[j]['localCounter2'] = 0
+                if program[j]['localCounter'] >= program[j]['interval']:
+                    program[j]['localCounter'] = 0
         takenNode['firewall'] += takenNode['firewall'] / 1000 * takenNode['regen']
         takenNode['firewall'] = round(takenNode['firewall'],1)
         if takenNode['firewall'] >= takenNode['fixedFirewall']:
@@ -68,6 +61,8 @@ def bruteCal(takenNode, program, node):
                         continue
                     if k != 'sentry':
                         takenNode['defProg'][n][0] += takenNode['defProg'][n][0] / 1000 * takenNode['defProg'][n][1]
+                        if takenNode['defProg'][n][0] > takenNode['defProg'][n][2]:
+                            takenNode['defProg'][n][0] = takenNode['defProg'][n][2]
                         takenNode['defProg'][n][0] -= node[k]['DPS']
                     if node[k]['sentryCounter'] == 1:
                         takenNode['defProg'][n][0] -= node[k]['sentryDPS']
@@ -82,6 +77,16 @@ def bruteCal(takenNode, program, node):
                     node[k]['nodeCounter'] = 0
             node[k]['sentryCounter'] = round(node[k]['sentryCounter']+0.1,1)
             node[k]['nodeCounter'] = round(node[k]['nodeCounter']+0.1,1)
+        for k in node:
+            if node[k]['firewall'] <= 0:
+                node[k]['firewall'] = 0
+                fallenNode += 1
+        if time >= 180:
+            return [time, 'Time//Impossible']
+        if takenNode['firewall'] <= 0:
+            return [time, "TakenNode//Retaken",takenNode['firewall']]
+        if fallenNode == len(node):
+            return [time, "TakenNode//Success",takenNode['firewall']]
         time += 0.1
         time = round(time,2)
         
