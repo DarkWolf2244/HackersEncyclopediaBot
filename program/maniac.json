@@ -6,7 +6,9 @@
 		"DiskSpace": "15",
 		"CompilationTime": "30 Minutes",
 		"InstallTime": "0.5 seconds",
-		"Type": "Dynamic - Overload - Instant"
+		"Type": "Dynamic - Overload - Instant",
+		"Delay": "0 Seconds",
+		"ProjectileTime": "0.5 Seconds"
 	},
     "1": {
         "Strength(DPS)": "850",

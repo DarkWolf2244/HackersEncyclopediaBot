@@ -6,8 +6,9 @@
 		"DiskSpace": "1",
 		"CompilationTime": "30 Seconds",
 		"InstallTime": "1 Second",
-		"Type": "Sweeper - Delay 1.5 seconds - Delay",
-		"ProjectileTime": "1 Second"
+		"Type": "Sweeper - Delay",
+		"ProjectileTime": "1.5 Second",
+		"Delay": "1 Seconds"
 	},
     "1": {
         "Strength(DPS)": "11",

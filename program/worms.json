@@ -6,8 +6,9 @@
 		"DiskSpace": "3",
 		"CompilationTime": "1 Minute",
 		"InstallTime": "1 Second",
-		"Type": "Dynamic - Delay 1.0 seconds - Duplicate - Delay",
-		"ProjectileTime": "0.5 Seconds"
+		"Type": "Dynamic - Duplicate - Delay",
+		"ProjectileTime": "0.5 Seconds",
+		"Delay": "1 Second"
 	},
     "1": {
         "Strength(DPS)": "12",

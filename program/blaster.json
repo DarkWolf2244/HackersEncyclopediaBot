@@ -8,8 +8,8 @@
 		"InstallTime": "5 Seconds",
 		"Type": "Dynamic - Stun",
 		"StunTime": "2 Seconds",
-		"ProjectileTime": "3 Seconds",
-		"Delay": "3.5 Seconds"
+		"ProjectileTime": "3.5 Seconds",
+		"Delay": "3 Seconds"
 	},
     "1": {
         "Strength(DPS)": "45",
